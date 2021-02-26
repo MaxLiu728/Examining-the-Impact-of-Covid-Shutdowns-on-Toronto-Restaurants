@@ -16,6 +16,7 @@ library(tidyverse)
 
 #read inputs
 Df<- read_csv(here::here("inputs/2110001901-noSymbol.csv"))
+## The dataset is collected from Statistic Canada, we will make reference with it in the r mardown file.
 Df<- Df%>%
   filter(Geography=="Ontario")
 
